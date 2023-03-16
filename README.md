@@ -1,3 +1,3 @@
 ## TTL
 
-_pagina para priorizar un orden de tareas y objetivos_
+_pagina para ordenar y colocar prioridad a tareas y objetivos_
