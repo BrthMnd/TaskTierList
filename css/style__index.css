@@ -1,0 +1,42 @@
+/* * listas y Bloques Generales */
+.listas{
+    display: flex;
+    background-color: rgb(80, 80, 80);
+    border: 1px solid black;
+}
+.bloques{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    border: 1px solid black;
+    transition: 0.5s;
+
+}
+/* * Estilos de la pagina * */
+.elmento{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    cursor: pointer;
+    padding: 10px;
+    height: 50px;
+    margin:0px  10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transition: 0.5s;
+}
+.elmento.Seleccionado{
+    border: 1px solid rgb(125, 33, 231);
+    transform: scale(1.1);
+    transition: 0.5s;
+    
+}
+.elmento.drag{
+    transition: 0.5s;
+    background-color: black;
+    border:1px solid black;
+    
+}

@@ -1,0 +1,48 @@
+#Control{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#body{
+    background: linear-gradient(black, rgb(48, 48, 48));
+}
+section{
+    width: 700px;
+    height: 500px;
+    /* border: 1px solid black; */
+}
+#form__create{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+}
+#ico__eraser{
+    font-size: 30px;
+}
+
+#bloqueS{
+    background-color: red;
+}
+#bloqueA{
+    background-color: rgb(255, 123, 0);
+}
+#bloqueB{
+    background-color: rgb(238, 255, 0);
+}
+#bloqueC{
+    background-color: rgb(72, 255, 0);
+}
+#bloqueD{
+    background-color: rgb(0, 255, 157);
+}
+#bloqueE{
+    background-color: rgb(0, 102, 255);
+}
+#bloqueF{
+    background-color: rgb(132, 0, 255);
+}
+#bloqueBorrar{
+    background-color: rgb(160, 45, 131);
+}

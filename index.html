@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task</title>
+  <link rel="stylesheet" href="configs/style__default.css">
+  <link rel="stylesheet" href="css/style__index.css">
+  <link rel="stylesheet" href="configs/bootstrap.min.css">
+  <link rel="stylesheet" href="configs/icons/all.min.css">
+</head>
+
+<body id="body">
+  <header>
+    <nav class="navbar navbar-expand-xxl navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Tareas Y Prioridades</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Aun No Definido</a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div id="Control">
+
+
+    <section>
+      <h1 style="color:white; text-align: center;">TierList</h1>
+
+      <div id="container">
+        <div class="Container__listas">
+
+          <div class="listas" id="lista1">
+            <div class="bloques" id="bloqueS">
+              <h1>S</h1>
+            </div>
+          </div>
+          <div class="listas" id="lista2">
+            <div class="bloques" id="bloqueA">
+              <h1>A</h1>
+            </div>
+          </div>
+          <div class="listas" id="lista3">
+            <div class="bloques" id="bloqueB">
+              <h1>B</h1>
+            </div>
+          </div>
+          <div class="listas" id="lista4">
+            <div class="bloques" id="bloqueC">
+              <h1>C</h1>
+            </div>
+          </div>
+          <div class="listas" id="lista5">
+            <div class="bloques" id="bloqueD">
+              <h1>D</h1>
+            </div>
+          </div>
+          <div class="listas" id="lista6">
+            <div class="bloques" id="bloqueE">
+              <h1>E</h1>
+            </div>
+          </div>
+          <div class="listas" id="lista7">
+            <div class="bloques" id="bloqueF">
+              <h1>F</h1>
+            </div>
+          </div>
+          <div class="listas" id="lista8">
+            <div class="bloques" id="bloqueBorrar">
+              <h1><i class="fa-solid fa-trash" id="ico__eraser"></i></h1>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <section id="form__create">
+
+      <h1 style="color:white; text-align: center; margin-bottom: 50px ;">Creacion De Tareas</h1>
+
+      <form action="">
+        <div id="inputs__labels">
+          <div class="form-floating mb-3">
+            <input id="tarea" type="text" class="form-control" id="floatingInput" placeholder="BD">
+            <label for="floatingInput">Tarea:</label>
+          </div>
+        </div>
+
+      </form>
+      <button type="button" id="btn" class="btn btn-success ">crear</button>
+    </section>
+  </div>
+
+  <!-- jsDelivr :: Sortable :: Latest (https://www.jsdelivr.com/package/npm/sortablejs) -->
+  <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
+  <script src="configs/icons/all.min.js"></script>
+  <script src="js/scrt__index.js"></script>
+  <script src="configs/bootstrap.min.js"></script>
+  <script src="configs/js__default.js"></script>
+</body>
+
+</html>
